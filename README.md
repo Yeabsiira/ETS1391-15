@@ -105,3 +105,61 @@ string.index(substring, start, end)
      The index of the first occurrence of the substring.
      
      Raises ValueError if the substring is not found.   
+
+ 7 ## `str.isalnum()`
+
+Purpose: Checks if all characters in the string are alphanumeric (letters or numbers) and the string is not empty.
+
+Return Value: True if all characters are alphanumeric and the string is not empty; False otherwise.
+
+Example:
+
+
+```
+
+pro = "python3"
+result = pro.isalnum()
+print(result) # Output: True
+
+pro2 = "python 3" #has a space between the words
+result = pro2.isalnum()
+print(result) #output: False
+
+```   
+
+8 ##  `str.count(substring)`
+
+Purpose: Returns the number of non-overlapping occurrences of a substring within the string.
+
+Return Value: An integer representing the number of occurrences.
+
+Example:
+
+
+```
+text = "hello world hello"
+count_of_hello = text.count("hello")
+print(count_of_hello) # Output: 2
+
+count_of_o = text.count("o")
+print(count_of_o) # Output: 3
+```
+
+9  ##  `str.endswith(suffix)`
+
+Purpose: Checks if the string ends with the specified suffix.
+
+Return Value: True if the string ends with the suffix; False otherwise.
+
+Example:
+
+
+```
+text = "Hello world"
+ends_with_world = text.endswith("world")
+print(ends_with_world) # Output: True
+
+ends_with_hello = text.endswith("hello")
+print(ends_with_hello) # Output: False
+
+```
