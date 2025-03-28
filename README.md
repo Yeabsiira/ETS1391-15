@@ -81,7 +81,7 @@ string.find(substring, start, end)
      
      -1 if the substring is not found.    
 
-  6 # String Method index()
+  6. # String Method index()
 
 The index() method in Python is a built-in string method that searches for a substring within a string and returns the index of the first occurrence. If the substring is not found, it raises a ValueError.
 
@@ -106,7 +106,7 @@ string.index(substring, start, end)
      
      Raises ValueError if the substring is not found.   
 
- 7 ## `str.isalnum()`
+ 7. ## `str.isalnum()`
 
 Purpose: Checks if all characters in the string are alphanumeric (letters or numbers) and the string is not empty.
 
@@ -127,7 +127,7 @@ print(result) #output: False
 
 ```   
 
-8 ##  `str.count(substring)`
+8. ##  `str.count(substring)`
 
 Purpose: Returns the number of non-overlapping occurrences of a substring within the string.
 
@@ -145,7 +145,7 @@ count_of_o = text.count("o")
 print(count_of_o) # Output: 3
 ```
 
-9  ##  `str.endswith(suffix)`
+9.  ##  `str.endswith(suffix)`
 
 Purpose: Checks if the string ends with the specified suffix.
 
@@ -161,5 +161,66 @@ print(ends_with_world) # Output: True
 
 ends_with_hello = text.endswith("hello")
 print(ends_with_hello) # Output: False
+
+```
+
+10.  ##  `str.isdecimal()`
+
+**Purpose:** Checks if all characters in the string are decimal digits (0-9).
+
+**Return Value:** `True` if all characters are decimal digits and the string is not empty; `False` otherwise.
+
+**Example:**
+
+```
+number_string = "12345"
+is_decimal = number_string.isdecimal()
+print(is_decimal) # Output: True
+
+empty_string = ""
+is_decimal = empty_string.isdecimal()
+print(is_decimal) # Output: False
+
+ ```
+ 11. ## 3. `str.isnumeric()`
+
+Purpose: Checks if all characters in the string are numeric characters (including digits, fractions, and other numeric symbols) and the string is not empty.
+
+Return Value: True if all characters are numeric and the string is not empty; False otherwise.
+
+Example:
+
+
+```
+
+number_string = "12345"
+is_numeric = number_string.isnumeric()
+print(is_numeric) # Output: True
+
+fraction_string = "½"
+is_numeric = fraction_string.isnumeric()
+print(is_numeric) # Output: True
+
+decimal_string = "3.14"
+is_numeric = decimal_string.isnumeric()
+print(is_numeric) # Output: False (contains a decimal point)
+
+```
+12. ## 6. `str.startswith(prefix)`
+
+Purpose: Checks if the string starts with the specified prefix.
+
+Return Value: True if the string starts with the prefix; False otherwise.
+
+Example:
+
+
+```
+text = "Hello world"
+starts_with_hello = text.startswith("Hello")
+print(starts_with_hello) # Output: True
+
+starts_with_goodbye = text.startswith("Goodbye")
+print(starts_with_goodbye) # Output: False
 
 ```
