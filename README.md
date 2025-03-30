@@ -224,3 +224,57 @@ starts_with_goodbye = text.startswith("Goodbye")
 print(starts_with_goodbye) # Output: False
 
 ```
+13. ## str.join(iterable)
+
+**Purpose:** Joins elements of an iterable into a single string, using the given string as a separator.
+
+**Return Value:** A new string with the iterable elements joined.
+
+**Example:**
+
+```python
+words = ["Hello", "World"]
+joined_text = " ".join(words)
+print(joined_text) # Output: Hello World
+```
+14. 
+## str.rstrip()
+
+**Purpose:** Removes trailing whitespace from the string.
+
+**Return Value:** A new string with trailing whitespace removed.
+
+**Example:**
+
+```python
+text = "hello world  "
+rstripped_text = text.rstrip()
+print(rstripped_text) # Output: "hello world"
+```
+15. 
+## str.replace(old, new)
+
+**Purpose:** Replaces all occurrences of a specified substring with another substring.
+
+**Return Value:** A new string with replacements made.
+
+**Example:**
+
+```python
+text = "I love Python"
+new_text = text.replace("Python", "Java")
+print(new_text) # Output: I love Java
+```
+16 ##  str.swapcase()
+
+**Purpose:** Returns a copy of the string with uppercase characters converted to lowercase and vice versa.
+
+**Return Value:** A new string with the case of each character swapped.
+
+**Example:**
+
+```python
+text = "Hello World"
+swapped_case = text.swapcase()
+print(swapped_case) # Output: hELLO wORLD
+```
