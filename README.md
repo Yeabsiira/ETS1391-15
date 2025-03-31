@@ -278,3 +278,51 @@ text = "Hello World"
 swapped_case = text.swapcase()
 print(swapped_case) # Output: hELLO wORLD
 ```
+17 # String Method lstrip()
+
+The lstrip() method in Python is a built-in string method that removes leading whitespace (or specified characters) from the beginning (left side) of a string.
+
+## Syntax
+
+string.lstrip(chars)
+
+## Parameters:
+     chars (optional) → A string specifying the characters to remove. Default is whitespace.
+
+
+## Returns:
+     A new string with the specified characters removed from the left side.
+
+18. # String Method strip()
+
+The strip() method in Python is a built-in string method that removes leading and trailing whitespace (or specified characters) from a string.
+
+## Syntax
+
+string.strip(chars)
+
+## Parameters:
+     chars (optional) → A string specifying the characters to remove. Default is whitespace.
+
+
+## Returns:
+     A new string with the specified characters removed from both the beginning and end.
+
+19 # String Method split()
+
+The split() method in Python is a built-in string method that splits a string into a list of substrings based on a specified delimiter.
+
+## Syntax
+
+string.split(separator, maxsplit)
+
+
+## Parameters:
+
+     separator (optional) → The delimiter used to split the string. Default is any whitespace.
+
+     maxsplit (optional) → The maximum number of splits to perform. Default is -1 (splits all occurrences).
+
+## Returns:
+
+     A list of substrings after splitting the string.
