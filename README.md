@@ -1,4 +1,5 @@
 📘 Python Dictionary Methods 
+
 🔹 #1 – clear 
 Removes all key-value pairs from the dictionary.
 Empties it out completely for a fresh new start.
